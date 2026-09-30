@@ -1,0 +1,24 @@
+declare namespace ModeloTarea {
+    enum Estado {
+        PENDIENTE = 0,
+        EN_CURSO = 1,
+        TERMINADA = 2,
+        CANCELADA = 3
+    }
+    enum Dificultad {
+        FACIL = 0,
+        MEDIO = 1,
+        DIFICIL = 2
+    }
+    interface Tarea {
+        titulo: string;
+        descripcion: string;
+        dificultad: Dificultad;
+        estado: Estado;
+        fechaCreacion: string;
+    }
+    const nombresEstado: string[];
+    const emojisDificultad: string[];
+}
+export = ModeloTarea;
+//# sourceMappingURL=ModeloTarea.d.ts.map

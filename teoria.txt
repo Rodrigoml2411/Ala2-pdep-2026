@@ -1,0 +1,34 @@
+# Ejercicio 1
+ Considera el lenguaje TypeScript acotado al paradigma de programación estructurada y analízalo en términos de los cuatro 
+ componentes de un paradigma mencionados por Kuhn. 
+ 1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje? 
+ 2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" 
+ que en otros lenguajes?
+
+ Respuesta:
+
+ 1. Generalización simbólica
+
+Las reglas escritas del lenguaje son:
+
+-Uso de variables y constantes mediante let, const y var.
+-Tipos de datos como number, string, boolean, array, etc.
+-Estructuras de control: if, else, switch.
+-Estructuras repetitivas: for, while, do while.
+-Uso de funciones para dividir el programa en tareas.
+-Operadores aritméticos, lógicos y relacionales.
+-Posibilidad de definir interfaces, tipos y enumeraciones.
+-En el paradigma estructurado, se busca organizar el programa mediante secuencia, selección y repetición, evitando
+ depender de estructuras propias de otros paradigmas.
+
+ 2. Creencias de los profesionales
+
+Características particulares del lenguaje se cree que sean "mejores":
+
+-Tipado estático: permite detectar muchos errores durante la escritura o compilación del programa.
+-Mayor claridad: declarar los tipos ayuda a entender qué datos maneja cada variable o función.
+-Mejor mantenimiento: facilita trabajar con programas grandes y organizados.
+-Compatibilidad con JavaScript: TypeScript se transforma (transpila) a JavaScript, por lo que
+ puede utilizarse en entornos donde funciona JavaScript.
+-Herramientas de desarrollo: ofrece autocompletado, detección de errores y mejor navegación del código en los editores.
+-Escalabilidad: se considera más cómodo para proyectos grandes que JavaScript sin tipado estático.
